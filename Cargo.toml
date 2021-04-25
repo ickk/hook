@@ -1,0 +1,27 @@
+[package]
+name = "hook"
+version = "0.1.0"
+authors = ["ickk <git@ickk.io>"]
+edition = "2018"
+
+[dependencies]
+rocket = "0.4.7"
+serde_json = "1.0"
+lazy_static = "1.4"
+sha2 = "0.9.3"
+ron = "0.6.4"
+git2 = "0.13"
+base64 = "0.13.0"
+hex = "0.4.3"
+
+[dependencies.serde]
+version = "1.0"
+features = ["derive"]
+
+[dependencies.rocket_contrib]
+version = "0.4.7"
+default-features = false
+features = ["json"]
+
+[build-dependencies]
+chrono = "0.4"

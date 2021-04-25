@@ -1,0 +1,8 @@
+{ "folders": [{"path": ".",
+               "folder_exclude_patterns": ["target", "venv"]}],
+  "settings": {"trim_automatic_white_space": true,
+               "ensure_newline_at_eof_on_save": true,
+               "default_line_ending": "unix",
+               "LSP": {"rust-analyzer": {
+                       "enabled": true}},
+               "rulers": [80]}}

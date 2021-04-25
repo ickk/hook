@@ -1,0 +1,8 @@
+# reorder_imports = false // see https://github.com/rust-lang/rustfmt/issues/4794
+imports_indent = "Visual"
+imports_layout = "Vertical"
+imports_granularity = "Crate"
+newline_style = "Unix"
+hard_tabs = false
+tab_spaces = 2
+max_width = 100
